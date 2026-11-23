@@ -37,17 +37,22 @@ What comes next: see the [roadmap](ROADMAP.md).
 
 ## Download
 
-The first beta release (**0.4.13**) is being prepared. Installers will appear under
-[Releases](https://github.com/anneuf/Sight/releases/latest):
+Get the installer for your system from the
+[latest release](https://github.com/anneuf/Sight/releases/latest) (beta **0.4.13**):
 
-| System | Package |
-| --- | --- |
-| Windows 10/11 (64-bit) | setup program, installs for your user |
-| macOS (Apple silicon) | disk image, signed and notarised by Apple |
-| Debian / Ubuntu / Mint (64-bit) | `.deb` package |
-| Any Linux (64-bit) | AppImage, no installation |
+| System | File | Notes |
+| --- | --- | --- |
+| Windows 10/11 (64-bit) | `sight_0.4.13_x64-setup.exe` | Installs for your user, no admin rights. The installer is not code-signed yet: Windows SmartScreen warns – choose **More info → Run anyway**. |
+| macOS 11+ (Apple silicon) | `sight_0.4.13_aarch64.dmg` | Drag Sight to Applications. Signed and notarised by Apple. Intel Macs are not supported by this build. |
+| Debian / Ubuntu / Mint (64-bit) | `sight_0.4.13_amd64.deb` | `sudo apt install ./sight_0.4.13_amd64.deb` (pulls in the dependencies). |
+| Any Linux (64-bit) | `sight_0.4.13_amd64.AppImage` | `chmod +x` the file and run it; no installation. |
 
-Sight works offline; it needs no account and sends no usage data.
+**Updates:** Sight looks for a new version a few seconds after start and installs it when you agree
+(Windows, macOS, AppImage; for the `.deb` it opens the release page). You can turn the check off in
+About. The `.sig`, `.app.tar.gz` and `latest.json` files in a release are for this updater – you
+don't need to download them. Checksums: `SHA256SUMS.txt` (`sha256sum -c SHA256SUMS.txt`).
+
+Sight needs no account and sends no usage data; besides the update check it works offline.
 
 ## Reporting problems and ideas
 
