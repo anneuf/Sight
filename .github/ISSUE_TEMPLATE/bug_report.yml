@@ -1,0 +1,39 @@
+name: Problem report
+description: Something does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Help → Report a problem** in Sight opens this form with the version and system filled in.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, what happened instead? Screenshots help.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Sight version
+      description: Shown in the status bar and in About (e.g. 0.4.13).
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      description: Windows / macOS / Linux distribution and version.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional)
+      description: The end of sight.log – Help → Show log folder. It contains no diagram content; remove file names you consider private.
+      render: text
+  - type: markdown
+    attributes:
+      value: |
+        If the problem is about a diagram, attach a small `.sight` file that shows it (zip it if GitHub refuses the file). Please leave out content you consider private.

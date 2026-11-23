@@ -51,10 +51,12 @@ Sight works offline; it needs no account and sends no usage data.
 
 ## Reporting problems and ideas
 
-Open a new [issue](https://github.com/anneuf/Sight/issues/new/choose) – **Problem report** when
-something does not work, **Idea or wish** for something Sight should do (better). Please say what
-you did, what you expected and what happened, and which Sight version and system you use (shown
-in the status bar). A small `.sight` file that shows the problem helps a lot – but please don't
+In Sight, **Help → Report a problem** (File menu in the ribbon) opens a problem report here with
+your version and system filled in. Or open a new [issue](https://github.com/anneuf/Sight/issues/new/choose)
+yourself – **Problem report** when something does not work, **Idea or wish** for something Sight
+should do (better). Please say what you did, what you expected and what happened. **Help → Show
+log folder** opens the folder with `sight.log`; its last lines help with crashes and errors (it
+holds no diagram content). A small `.sight` file that shows the problem helps a lot – but please don't
 attach diagrams with content you consider private.
 
 Issues are worked on by priority (`priority: high`, `medium`, `low`; `tbd` = still to be
