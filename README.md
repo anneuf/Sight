@@ -33,6 +33,8 @@ published here.
 
 </details>
 
+What comes next: see the [roadmap](ROADMAP.md).
+
 ## Download
 
 The first beta release (**0.4.13**) is being prepared. Installers will appear under
