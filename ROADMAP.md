@@ -25,7 +25,8 @@ the order. Version numbers follow the development steps: `0.<milestone>.<step>`.
   change diagrams with the same rules as the app.
 - **Professional features** – curved connectors, align and distribute, groups and containers,
   templates, shape data, rich text, automatic layout, document themes.
-- **Import** – draw.io diagrams and libraries, Mermaid flowcharts.
+- **Import and export** – Visio files (`.vsdx` diagrams, `.vssx` stencils), draw.io diagrams and
+  libraries, Mermaid flowcharts.
 - **IT infrastructure** – port-level connections, device data (host name, IP, VLAN, …), rack
   diagrams.
 - **Help** – built-in, searchable help that works offline, context help with F1, a getting-started
